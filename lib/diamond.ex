@@ -1,6 +1,6 @@
 defmodule Diamond do
   def char_for(row) do
-    <<?A + row >>
+    <<?A + row>>
   end
 
   def spaces(n) do
