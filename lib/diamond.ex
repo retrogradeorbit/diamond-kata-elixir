@@ -16,7 +16,7 @@ defmodule Diamond do
   end
 
   def diamond_list (0) do
-    ["A"]
+    [line_for(0, 0)]
   end
 
   def diamond_list (n) do
