@@ -1,0 +1,2 @@
+defmodule Diamond do
+end
