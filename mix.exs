@@ -5,6 +5,7 @@ defmodule Diamond.Mixfile do
     [app: :diamond,
      version: "0.1.0",
      elixir: "~> 1.3",
+     escript: [main_module: Diamond],
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps()]
