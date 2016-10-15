@@ -1,6 +1,34 @@
 # Diamond
 
-**TODO: Add description**
+## Test
+
+```$ mix test
+Compiling 1 file (.ex)
+Generated diamond app
+....
+
+Finished in 0.04 seconds
+4 tests, 0 failures
+```
+
+## Run
+
+```$ mix escript.build
+$ ./diamond 6
+      A
+     B B
+    C   C
+   D     D
+  E       E
+ F         F
+G           G
+ F         F
+  E       E
+   D     D
+    C   C
+     B B
+      A
+```
 
 ## Installation
 
@@ -21,4 +49,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
       [applications: [:diamond]]
     end
     ```
-
