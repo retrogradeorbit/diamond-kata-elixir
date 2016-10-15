@@ -2,7 +2,8 @@
 
 ## Test
 
-```$ mix test
+```
+$ mix test
 Compiling 1 file (.ex)
 Generated diamond app
 ....
@@ -13,7 +14,8 @@ Finished in 0.04 seconds
 
 ## Run
 
-```$ mix escript.build
+```
+$ mix escript.build
 $ ./diamond 6
       A
      B B
